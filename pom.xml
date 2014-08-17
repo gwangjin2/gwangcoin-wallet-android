@@ -12,8 +12,9 @@
 
 	<modules>
 		<module>wallet</module>
+		<module>bitcoinj</module>
 		<module>integration-android</module>
-        <module>sample-integration-android</module>
+                <module>sample-integration-android</module>
 	</modules>
 
 	<build>
