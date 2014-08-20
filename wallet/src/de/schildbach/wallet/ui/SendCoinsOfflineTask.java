@@ -22,14 +22,13 @@ import javax.annotation.Nonnull;
 import android.os.Handler;
 import android.os.Looper;
 
-import android.util.Log;
 import com.google.bitcoin.core.InsufficientMoneyException;
 import com.google.bitcoin.core.Transaction;
 import com.google.bitcoin.core.Wallet;
 import com.google.bitcoin.core.Wallet.SendRequest;
 
 /**
- * @author Andreas Schildbach, Litecoin Dev Team
+ * @author Andreas Schildbach, Suwoncoin Dev Team
  */
 public abstract class SendCoinsOfflineTask
 {

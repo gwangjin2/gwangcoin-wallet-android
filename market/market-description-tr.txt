@@ -1,21 +1,21 @@
-Litecoin'leriniz daima cebinizde sizinle olsun! Herhangi bir QR kodunu okuyarak çabuk ödeme yapabilirsiniz. Bir tüccar olarak ödemeleri güvenilir ve anında alabilirsiniz. Litecoin cüzdanı ilk mobil Litecoin uygulamasıdır ve muhtemelen en güvenli Litecoin uygulamasıdır!
+Suwoncoin'leriniz daima cebinizde sizinle olsun! Herhangi bir QR kodunu okuyarak çabuk ödeme yapabilirsiniz. Bir tüccar olarak ödemeleri güvenilir ve anında alabilirsiniz. Suwoncoin cüzdanı ilk mobil Suwoncoin uygulamasıdır ve muhtemelen en güvenli Suwoncoin uygulamasıdır!
 
 İŞLEVLERİ:
 
 • Hiçbir oturuma, web ya da bulut hizmetine gerek yoktur. Bu cüzdan merkezsiz ve eşten eşedir.
-• Litecoin meblağlarının LTC ve mLTC olarak gösterilmesi.
+• Suwoncoin meblağlarının LTC ve mLTC olarak gösterilmesi.
 • Dövizlere ve dövizlerden dönüştürme.
-• NFC, QR kodu veya Litecoin bağlantıları ile Litecoin gönderir ve alır.
-• Sık kullanılan Litecoin adresleri için adres defteri içerir.
+• NFC, QR kodu veya Suwoncoin bağlantıları ile Suwoncoin gönderir ve alır.
+• Sık kullanılan Suwoncoin adresleri için adres defteri içerir.
 • Çevrimdışı olduğunuzda Bluetooth vasıtasıyla ödemeler.
-• Alınan litecoin'ler için sistem bildirimleri.
-• Litecoin bakiyesini görüntüleyen widget.
+• Alınan Suwoncoin'ler için sistem bildirimleri.
+• Suwoncoin bakiyesini görüntüleyen widget.
 
-Litecoin hakkında daha fazla bilgiyi şurada bulabilirsiniz:
-http://litecoin.org
+Suwoncoin hakkında daha fazla bilgiyi şurada bulabilirsiniz:
+http://Suwoncoin.org
 
-Litecoin Wallet'e iştirak etmek istiyorsanız, projenin adresi şudur:
-https://github.com/Litecoin-Java/litecoin-wallet
+Suwoncoin Wallet'e iştirak etmek istiyorsanız, projenin adresi şudur:
+https://github.com/Suwoncoin-Java/Suwoncoin-wallet
 
 Lisans: GPLv3
 Tüm riski siz üstlenmiş olursunuz.

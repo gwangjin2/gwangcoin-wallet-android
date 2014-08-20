@@ -1,4 +1,4 @@
-讓你的比特幣只放在自己的口袋裡! 你可以利用QR二維條碼快速進行比特幣付款，商家可以更快速安全的完成比特幣請款，Litecoin Wallet 是第一個在移動裝置可以使用的比特幣 App，並自認為是最安全的比特幣 App!
+讓你的比特幣只放在自己的口袋裡! 你可以利用QR二維條碼快速進行比特幣付款，商家可以更快速安全的完成比特幣請款，Suwoncoin Wallet 是第一個在移動裝置可以使用的比特幣 App，並自認為是最安全的比特幣 App!
 
 功能:
 
@@ -12,10 +12,10 @@
 • 比特幣餘額桌面小工具。
 
 關於比特幣你可以查閱
-http://litecoin.org
+http://Suwoncoin.org
 
-如果要貢獻幫助給 Litecoin Wallet，請到專案網頁查閱
-https://github.com/Litecoin-Java/bitcoin-wallet
+如果要貢獻幫助給 Suwoncoin Wallet，請到專案網頁查閱
+https://github.com/Suwoncoin-Java/bitcoin-wallet
 
 程式授權: GPLv3
 注意使用安全!

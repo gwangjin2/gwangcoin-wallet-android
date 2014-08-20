@@ -14,10 +14,9 @@
  * limitations under the License.
  */
 
-package org.litecoin;
+package org.suwoncoin;
 
 import com.google.bitcoin.core.*;
-import com.google.bitcoin.params.MainNetParams;
 import com.google.bitcoin.params.TestNet3Params;
 import org.junit.Test;
 import org.spongycastle.util.encoders.Hex;
@@ -26,8 +25,8 @@ import java.util.Arrays;
 
 import static org.junit.Assert.*;
 
-public class LitecoinAddressTest {
-    static final NetworkParameters mainParams = LitecoinParams.get();
+public class SuwoncoinAddressTest {
+    static final NetworkParameters mainParams = SuwoncoinParams.get();
 
     @Test
     public void stringification() throws Exception {
@@ -49,7 +48,7 @@ public class LitecoinAddressTest {
             fail();
         } catch (WrongNetworkException e) {
             // Success.
-            assertEquals(e.verCode, LitecoinParams.get().getAddressHeader());
+            assertEquals(e.verCode, SuwoncoinParams.get().getAddressHeader());
             assertTrue(Arrays.equals(e.acceptableVersions, TestNet3Params.get().getAcceptableAddressCodes()));
         } catch (AddressFormatException e) {
             fail();
@@ -59,6 +58,6 @@ public class LitecoinAddressTest {
     @Test
     public void getNetwork() throws Exception {
         NetworkParameters params = Address.getParametersFromAddress("LNLKaBheR1M5HACRu8gmjXxCjkPPVHxGW5");
-        assertEquals(LitecoinParams.get().getId(), params.getId());
+        assertEquals(SuwoncoinParams.get().getId(), params.getId());
     }
 }

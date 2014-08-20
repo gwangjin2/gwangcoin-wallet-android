@@ -54,7 +54,7 @@ import de.schildbach.wallet.service.BlockchainServiceImpl;
 import de.schildbach.wallet_swc.R;
 
 /**
- * @author Andreas Schildbach, Litecoin Dev Team
+ * @author Andreas Schildbach, Suwoncoin Dev Team
  */
 public final class PeerListFragment extends SherlockListFragment
 {

@@ -35,7 +35,6 @@ import java.util.concurrent.TimeUnit;
 import javax.annotation.Nonnull;
 
 import org.bitcoinj.wallet.Protos;
-//import org.litecoin.LitecoinWallet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.suwoncoin.SuwoncoinWallet;
@@ -83,7 +82,7 @@ import de.schildbach.wallet.util.WalletUtils;
 import de.schildbach.wallet_swc.R;
 
 /**
- * @author Andreas Schildbach, Litecoin Dev Team
+ * @author Andreas Schildbach, Suwoncoin Dev Team
  */
 public class WalletApplication extends Application
 {

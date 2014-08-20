@@ -63,7 +63,7 @@ import com.google.bitcoin.script.Script;
 import de.schildbach.wallet.Constants;
 
 /**
- * @author Andreas Schildbach, Litecoin Dev Team
+ * @author Andreas Schildbach, Suwoncoin Dev Team
  */
 public class WalletUtils
 {

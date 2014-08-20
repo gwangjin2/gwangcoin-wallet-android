@@ -71,7 +71,7 @@ public final class BitcoinIntegration
 	 * Warning: A success indication is no guarantee! To be on the safe side, you must drive your own Bitcoin
 	 * infrastructure and validate the transaction.
 	 * 
-	 * @param context
+	 * @param activity
 	 *            Android context
 	 * @param address
 	 *            Bitcoin address
@@ -140,7 +140,7 @@ public final class BitcoinIntegration
 
 	private static Intent makeIntent(final String address, final Long amount)
 	{
-		final StringBuilder uri = new StringBuilder("litecoin:");
+		final StringBuilder uri = new StringBuilder("suwoncoin:");
 		if (address != null)
 			uri.append(address);
 		if (amount != null)
@@ -171,7 +171,7 @@ public final class BitcoinIntegration
 
 	private static void redirectToDownload(final Context context)
 	{
-		Toast.makeText(context, "No Litecoin application found.\nPlease install Litecoin Wallet.", Toast.LENGTH_LONG).show();
+		Toast.makeText(context, "No Suwoncoin application found.\nPlease install Suwoncoin Wallet.", Toast.LENGTH_LONG).show();
 
 		final Intent marketIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=de.schildbach.wallet"));
 		final Intent binaryIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://code.google.com/p/bitcoin-wallet/downloads/list"));

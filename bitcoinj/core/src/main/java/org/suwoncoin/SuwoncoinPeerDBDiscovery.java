@@ -14,24 +14,25 @@
  * limitations under the License.
  */
 
-package org.litecoin;
+package org.suwoncoin;
 
-import com.google.bitcoin.core.*;
+import com.google.bitcoin.core.AbstractPeerEventListener;
+import com.google.bitcoin.core.AddressMessage;
+import com.google.bitcoin.core.Message;
+import com.google.bitcoin.core.NetworkParameters;
+import com.google.bitcoin.core.Peer;
+import com.google.bitcoin.core.PeerAddress;
+import com.google.bitcoin.core.PeerEventListener;
+import com.google.bitcoin.core.PeerGroup;
 import com.google.bitcoin.net.discovery.PeerDBDiscovery;
-import com.google.bitcoin.net.discovery.PeerDiscoveryException;
 
 import java.io.File;
 import java.math.BigInteger;
-import java.net.InetSocketAddress;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.Executor;
-import java.util.concurrent.TimeUnit;
 
 /**
- * A version of PeerDBDiscovery that only returns nodes which support Bloom filters according to Litecoin's BLOOM bit
+ * A version of PeerDBDiscovery that only returns nodes which support Bloom filters according to Suwoncoin's BLOOM bit
  */
-public class LitcoinPeerDBDiscovery extends PeerDBDiscovery {
+public class SuwoncoinPeerDBDiscovery extends PeerDBDiscovery {
     // Ugly hack to only let the PeerDB know about peers with NODE_BLOOM (1<<1)
     // Wrap the connected event listener and intercept calls to it
     private static class WrappedEventListener extends AbstractPeerEventListener {
@@ -67,7 +68,7 @@ public class LitcoinPeerDBDiscovery extends PeerDBDiscovery {
                 parent.onPeerDisconnected(p, peerCount);
         }
     }
-      
+
     private static class PeerGroupWrapper extends PeerGroup {
         private PeerGroup parent;
         NetworkParameters params;
@@ -82,7 +83,7 @@ public class LitcoinPeerDBDiscovery extends PeerDBDiscovery {
         }
     }
 
-    public LitcoinPeerDBDiscovery(NetworkParameters params, File db, PeerGroup group) {
+    public SuwoncoinPeerDBDiscovery(NetworkParameters params, File db, PeerGroup group) {
         super(params, db, new PeerGroupWrapper(params, group));
     }
 }

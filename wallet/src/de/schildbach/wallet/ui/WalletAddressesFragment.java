@@ -26,7 +26,6 @@ import javax.annotation.Nonnull;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.ContentResolver;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -62,7 +61,7 @@ import de.schildbach.wallet.util.WalletUtils;
 import de.schildbach.wallet_swc.R;
 
 /**
- * @author Andreas Schildbach, Litecoin Dev Team
+ * @author Andreas Schildbach, Suwoncoin Dev Team
  */
 public final class WalletAddressesFragment extends SherlockListFragment
 {

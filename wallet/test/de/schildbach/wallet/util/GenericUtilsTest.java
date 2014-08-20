@@ -21,13 +21,11 @@ import static org.junit.Assert.assertEquals;
 
 import java.math.BigInteger;
 
-import de.schildbach.wallet.Constants;
 import org.junit.Test;
 
-import com.google.bitcoin.core.NetworkParameters;
 
 /**
- * @author Andreas Schildbach, Litecoin Dev Team
+ * @author Andreas Schildbach, Suwoncoin Dev Team
  */
 public class GenericUtilsTest
 {

@@ -15,7 +15,7 @@ import com.google.bitcoin.crypto.KeyCrypter;
 import java.math.BigInteger;
 
 /**
- * An extension of BitcoinJ's wallet to use Litecoin's fee structure by default
+ * An extension of BitcoinJ's wallet to use Suwoncoin's fee structure by default
  */
 public class SuwoncoinWallet extends Wallet {
     public SuwoncoinWallet(NetworkParameters params) {

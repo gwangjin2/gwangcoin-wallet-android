@@ -38,7 +38,7 @@ import com.google.zxing.ResultPoint;
 import de.schildbach.wallet_swc.R;
 
 /**
- * @author Andreas Schildbach, Litecoin Dev Team
+ * @author Andreas Schildbach, Suwoncoin Dev Team
  */
 public class ScannerView extends View
 {

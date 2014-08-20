@@ -31,7 +31,7 @@ import android.nfc.NfcManager;
 import de.schildbach.wallet.Constants;
 
 /**
- * @author Andreas Schildbach, Litecoin Dev Team
+ * @author Andreas Schildbach, Suwoncoin Dev Team
  */
 public class Nfc
 {

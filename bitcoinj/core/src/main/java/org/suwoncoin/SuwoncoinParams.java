@@ -43,7 +43,7 @@ import static com.google.common.base.Preconditions.checkState;
 public class SuwoncoinParams extends NetworkParameters {
     public SuwoncoinParams() {
         super();
-        id = "org.litecoin.production";
+        id = "org.suwoncoin.production";
         proofOfWorkLimit = Utils.decodeCompactBits(0x1e0fffffL);
         addressHeader = 48;
         acceptableAddressCodes = new int[] { 48 };
@@ -80,8 +80,7 @@ public class SuwoncoinParams extends NetworkParameters {
         String genesisHash = genesisBlock.getHashAsString();
         checkState(genesisHash.equals("12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2"),
                 genesisBlock);
-
-        subsidyDecreaseBlockCount = 840000;
+        subsidyDecreaseBlockCount = 1000000;
 
         dnsSeeds = new String[] {
                 "dnsseed1.suwoncoin.org",
@@ -89,7 +88,7 @@ public class SuwoncoinParams extends NetworkParameters {
         };
     }
 
-    private static BigInteger MAX_MONEY = Utils.COIN.multiply(BigInteger.valueOf(84000000));
+    private static BigInteger MAX_MONEY = Utils.COIN.multiply(BigInteger.valueOf(1000000000));
     @Override
     public BigInteger getMaxMoney() { return MAX_MONEY; }
 

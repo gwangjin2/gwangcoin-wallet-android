@@ -63,7 +63,7 @@ import de.schildbach.wallet.util.WalletUtils;
 import de.schildbach.wallet_swc.R;
 
 /**
- * @author Andreas Schildbach, Litecoin Dev Team
+ * @author Andreas Schildbach, Suwoncoin Dev Team
  */
 public final class SendingAddressesFragment extends SherlockListFragment implements LoaderManager.LoaderCallbacks<Cursor>
 {
@@ -143,7 +143,7 @@ public final class SendingAddressesFragment extends SherlockListFragment impleme
         }
 
         if(input == null) return;
-        Log.d("Litecoin", "SCAN RESULT:" + input);
+        Log.d("Suwoncoin", "SCAN RESULT:" + input);
 
         new StringInputParser(input)
         {

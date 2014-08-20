@@ -18,7 +18,6 @@
 package de.schildbach.wallet;
 
 import java.io.File;
-import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.nio.charset.Charset;
 
@@ -26,22 +25,18 @@ import android.os.Environment;
 import android.text.format.DateUtils;
 
 import com.google.bitcoin.core.NetworkParameters;
-import com.google.bitcoin.params.MainNetParams;
-import com.google.bitcoin.params.TestNet3Params;
-
-import de.schildbach.wallet_swc.R;
-//import org.litecoin.LitecoinParams;
 import org.suwoncoin.SuwoncoinParams;
+import de.schildbach.wallet_swc.R;
 
 /**
- * @author Andreas Schildbach, Litecoin Dev Team, Suwoncoin Dev Team
+ * @author Andreas Schildbach, Suwoncoin Dev Team, Suwoncoin Dev Team
  */
 public class Constants
 {
 	public static final boolean TEST = R.class.getPackage().getName().contains("_test");
 
 	public static final NetworkParameters NETWORK_PARAMETERS = SuwoncoinParams.get();
-	private static final String FILENAME_NETWORK_SUFFIX = "suwoncoin";
+	private static final String FILENAME_NETWORK_SUFFIX = ".suwoncoin";
 
 	public static final String WALLET_FILENAME = "wallet" + FILENAME_NETWORK_SUFFIX;
 

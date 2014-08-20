@@ -1,21 +1,21 @@
-Litecoiny vždy so sebou vo svojom vrecku. Jednoduché a rýchle platby pomocou QR kódov. Pre obchodníkov ponúka spoľahlivé a okamžité prijímanie platieb. Litecoin Wallet je prvá mobilná Litecoin aplikácia a preukázateľne aj najbezpečnejšia.
+Suwoncoiny vždy so sebou vo svojom vrecku. Jednoduché a rýchle platby pomocou QR kódov. Pre obchodníkov ponúka spoľahlivé a okamžité prijímanie platieb. Suwoncoin Wallet je prvá mobilná Suwoncoin aplikácia a preukázateľne aj najbezpečnejšia.
 
 FUNKCIE:
 
 • Nie je potrebná žiadna registrácia ani žiadny účet.
-• Zobrazenie zostatku Litecoinov v LTC alebo mLTC.
-• Prepočet hodnoty Litecoinov do viacerých cudzích mien.
-• Posielanie a prijímanie Litecoinov pomocou NFC, QR kódov alebo Litecoin adries.
-• Adresár pre často používané Litecoin adresy.
+• Zobrazenie zostatku Suwoncoinov v LTC alebo mLTC.
+• Prepočet hodnoty Suwoncoinov do viacerých cudzích mien.
+• Posielanie a prijímanie Suwoncoinov pomocou NFC, QR kódov alebo Suwoncoin adries.
+• Adresár pre často používané Suwoncoin adresy.
 • V offline režime je platba možná aj cez Bluetooth.
-• Notifikácie v stavovej lište pri prijatí Litecoinov.
+• Notifikácie v stavovej lište pri prijatí Suwoncoinov.
 • Widget s celkovým zostatkom.
 
-Viac informácií o Litecoine
-http://litecoin.org
+Viac informácií o Suwoncoine
+http://Suwoncoin.org
 
-Ak chcete prispieť do projektu Litecoin Wallet nájdete ho na adrese
-https://github.com/Litecoin-Java/litecoin-wallet
+Ak chcete prispieť do projektu Suwoncoin Wallet nájdete ho na adrese
+https://github.com/Suwoncoin-Java/Suwoncoin-wallet
 
 Licencia: GPLv3
 Použitie len na vlastné riziko!

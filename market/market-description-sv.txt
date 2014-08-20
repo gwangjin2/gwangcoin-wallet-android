@@ -1,19 +1,19 @@
-Detta är en fristående Litecoin plånbok för Android. Du kan skicka Litecoins mellan telefoner genom att scanna den QR kod som visas på skärmen. Eller använda NFC (Near Field Communication).
+Detta är en fristående Suwoncoin plånbok för Android. Du kan skicka Suwoncoins mellan telefoner genom att scanna den QR kod som visas på skärmen. Eller använda NFC (Near Field Communication).
 
 FUNKTIONER:
 
-• Visa plånbokens värde i Litecoins och andra valutor.
-• Skicka och ta emot Litecoins via NFC, QR-koder eller en Litecoin URL.
-• Adressbok för de Litecoin adresser man använder ofta.
+• Visa plånbokens värde i Suwoncoins och andra valutor.
+• Skicka och ta emot Suwoncoins via NFC, QR-koder eller en Suwoncoin URL.
+• Adressbok för de Suwoncoin adresser man använder ofta.
 • Påbörja transaktioner medan du är offline, de utförs när du kommer online.
-• Systemnotifikationer när Litecoins skickats till dig, och när plånboken kommunicerar med nätverket.
+• Systemnotifikationer när Suwoncoins skickats till dig, och när plånboken kommunicerar med nätverket.
 • App widget som visar plånbokens värde.
 
-Du kan lära dig mer om Litecoin genom att besöka
-http://litecoin.org
+Du kan lära dig mer om Suwoncoin genom att besöka
+http://Suwoncoin.org
 
-Om du vill hjälpa till med utvecklingen av Litecoin Wallet så kan du hitta projektet här
-https://github.com/Litecoin-Java/litecoin-wallet
+Om du vill hjälpa till med utvecklingen av Suwoncoin Wallet så kan du hitta projektet här
+https://github.com/Suwoncoin-Java/Suwoncoin-wallet
 
 Licens: GPLv3
 Använd på egen risk!

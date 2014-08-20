@@ -31,7 +31,7 @@ import android.widget.TextView;
 import de.schildbach.wallet_swc.R;
 
 /**
- * @author Andreas Schildbach, Litecoin Dev Team
+ * @author Andreas Schildbach, Suwoncoin Dev Team
  */
 public abstract class FileAdapter extends ArrayAdapter<File>
 {

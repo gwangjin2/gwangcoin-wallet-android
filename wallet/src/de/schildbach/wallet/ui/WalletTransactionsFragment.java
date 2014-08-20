@@ -30,7 +30,7 @@ import de.schildbach.wallet.util.ViewPagerTabs;
 import de.schildbach.wallet_swc.R;
 
 /**
- * @author Andreas Schildbach, Litecoin Dev Team
+ * @author Andreas Schildbach, Suwoncoin Dev Team
  */
 public final class WalletTransactionsFragment extends Fragment
 {

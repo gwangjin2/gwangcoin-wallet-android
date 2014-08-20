@@ -23,11 +23,10 @@ import java.util.Locale;
 
 import javax.annotation.Nonnull;
 
-import com.google.bitcoin.core.Utils;
 import de.schildbach.wallet.Constants;
 
 /**
- * @author Andreas Schildbach, Litecoin Dev Team
+ * @author Andreas Schildbach, Suwoncoin Dev Team
  */
 public class GenericUtils
 {

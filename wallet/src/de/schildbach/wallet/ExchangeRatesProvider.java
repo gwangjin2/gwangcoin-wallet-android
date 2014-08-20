@@ -51,7 +51,7 @@ import android.provider.BaseColumns;
 import android.text.format.DateUtils;
 
 /**
- * @author Andreas Schildbach, Litecoin Dev Team
+ * @author Andreas Schildbach, Suwoncoin Dev Team
  */
 public class ExchangeRatesProvider extends ContentProvider
 {

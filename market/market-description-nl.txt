@@ -1,19 +1,19 @@
-Dit is een standalone Litecoin Wallet voor uw Android apparaat. U kan direct Litecoins versturen tussen telefoons door simpelweg de QR-code te scannen die de app weergeeft of via NFC (Near Field Communication).
+Dit is een standalone Suwoncoin Wallet voor uw Android apparaat. U kan direct Suwoncoins versturen tussen telefoons door simpelweg de QR-code te scannen die de app weergeeft of via NFC (Near Field Communication).
 
 FUNCTIES:
 
-• Weergeven van het wallet saldo in Litecoin en verschillende andere valuta.
-• Verzenden en ontvangen van Litecoin via NFC, QR-codes of Litecoin URLs.
-• Adresboek voor veelgebruikte Litecoin adressen.
+• Weergeven van het wallet saldo in Suwoncoin en verschillende andere valuta.
+• Verzenden en ontvangen van Suwoncoin via NFC, QR-codes of Suwoncoin URLs.
+• Adresboek voor veelgebruikte Suwoncoin adressen.
 • Transacties ingeven tijdens het offline zijn, deze zullen worden uitgevoerd wanneer u online komt.
-• Systeem melding over Litecoin connectiviteit en ontvangen litecoins.
-• Widget voor Litecoin saldo.
+• Systeem melding over Suwoncoin connectiviteit en ontvangen Suwoncoins.
+• Widget voor Suwoncoin saldo.
 
-Voor meer informatie over Litecoin kunt u terecht op
-http://litecoin.org
+Voor meer informatie over Suwoncoin kunt u terecht op
+http://Suwoncoin.org
 
-Als u een bijdrage wil leveren aan Litecoin Wallet, het project is te vinden op 
-https://github.com/Litecoin-Java/litecoin-wallet
+Als u een bijdrage wil leveren aan Suwoncoin Wallet, het project is te vinden op
+https://github.com/Suwoncoin-Java/Suwoncoin-wallet
 
 Licentie: GPLv3
 Gebruik op eigen risico!
