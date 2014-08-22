@@ -73,7 +73,7 @@
 			<intent-filter>
 				<action android:name="android.nfc.action.NDEF_DISCOVERED" />
 
-				<data android:mimeType="application/x-ltctx" />
+				<data android:mimeType="application/x-swctx" />
 
 				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
@@ -120,7 +120,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
-                <data android:scheme="ltctx" />
+                <data android:scheme="swctx" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
@@ -172,11 +172,11 @@
 
 		<provider
 			android:name="de.schildbach.wallet.AddressBookProvider"
-			android:authorities="de.schildbach.wallet_ltc.address_book"
+			android:authorities="de.schildbach.wallet_swc.address_book"
 			android:exported="false" />
 		<provider
 			android:name="de.schildbach.wallet.ExchangeRatesProvider"
-			android:authorities="de.schildbach.wallet_ltc.exchange_rates"
+			android:authorities="de.schildbach.wallet_swc.exchange_rates"
 			android:exported="false" />
 
 		<receiver
