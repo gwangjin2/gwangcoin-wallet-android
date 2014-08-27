@@ -45,8 +45,8 @@ public class SuwoncoinParams extends NetworkParameters {
         super();
         id = "org.suwoncoin.production";
         proofOfWorkLimit = Utils.decodeCompactBits(0x1e0fffffL);
-        addressHeader = 48;
-        acceptableAddressCodes = new int[] { 48 };
+        addressHeader = 125;    // 48(L) -> 125(s)
+        acceptableAddressCodes = new int[] { 125 };
         //port = 9333;
         port = 9777;
         packetMagic = 0xfbc0b6dbL;

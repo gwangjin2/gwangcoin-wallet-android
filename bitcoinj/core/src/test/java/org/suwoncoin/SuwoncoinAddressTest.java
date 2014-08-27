@@ -31,12 +31,12 @@ public class SuwoncoinAddressTest {
     @Test
     public void stringification() throws Exception {
         Address b = new Address(mainParams, Hex.decode("4a22c3c4cbb31e4d03b15550636762bda0baf85a"));
-        assertEquals("LRywuuNCDLJCX4cnQ8RxQQoLbtM5FRsgto", b.toString());
+        assertEquals("sR1PjGKNtDyfVSMTHS5Vk4kv4jBi3tMMbc", b.toString());
     }
-    
+
     @Test
     public void decoding() throws Exception {
-        Address b = new Address(mainParams, "LNLKaBheR1M5HACRu8gmjXxCjkPPVHxGW5");
+        Address b = new Address(mainParams, "sMMmPYeq5u2YFXw6nSLK5BunCbE2B6zqkZ");
         assertEquals("221ca965650a603b911b930fb9fb4b9b475c40b0", Utils.bytesToHexString(b.getHash160()));
     }
 
@@ -44,7 +44,7 @@ public class SuwoncoinAddressTest {
     public void errorPaths() {
         // Check the case of a mismatched network.
         try {
-            new Address(TestNet3Params.get(), "LRywuuNCDLJCX4cnQ8RxQQoLbtM5FRsgto");
+            new Address(TestNet3Params.get(), "sR1PjGKNtDyfVSMTHS5Vk4kv4jBi3tMMbc");
             fail();
         } catch (WrongNetworkException e) {
             // Success.
@@ -57,7 +57,7 @@ public class SuwoncoinAddressTest {
 
     @Test
     public void getNetwork() throws Exception {
-        NetworkParameters params = Address.getParametersFromAddress("LNLKaBheR1M5HACRu8gmjXxCjkPPVHxGW5");
+        NetworkParameters params = Address.getParametersFromAddress("sMMmPYeq5u2YFXw6nSLK5BunCbE2B6zqkZ");
         assertEquals(SuwoncoinParams.get().getId(), params.getId());
     }
 }
