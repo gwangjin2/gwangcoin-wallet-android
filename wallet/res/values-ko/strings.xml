@@ -36,6 +36,8 @@
   <string name="wallet_transactions_fragment_coinbase">신규 채굴 코인</string>
   <string name="wallet_transactions_fragment_internal">내부 오류</string>
   <string name="wallet_transactions_context_show_qr_title">QR코드 보기</string>
+  <string name="wallet_options_backup">암호키 백업</string>
+  <string name="wallet_options_disconnect">연결해제</string>
   <string name="wallet_options_safety_menu">안전 보관</string>
   <string name="wallet_options_safety">안전 이슈 참조</string>
   <string name="wallet_options_donate">팁/기부하기</string>
