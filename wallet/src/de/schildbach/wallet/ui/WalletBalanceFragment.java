@@ -311,7 +311,7 @@ public final class WalletBalanceFragment extends Fragment
 			if (data != null)
 			{
 				data.moveToFirst();
-				exchangeRate = ExchangeRatesProvider.getExchangeRate(data);
+				exchangeRate = null; //ExchangeRatesProvider.getExchangeRate(data);
 				updateView();
 			}
 		}
