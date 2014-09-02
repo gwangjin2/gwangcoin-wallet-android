@@ -3,7 +3,7 @@
 	xmlns:tools="http://schemas.android.com/tools"
 	package="de.schildbach.wallet_swc"
 	android:installLocation="internalOnly"
-	android:versionCode="164"
+	android:versionCode="165"
 	android:versionName="0.1.1" >
 
 	<uses-sdk
