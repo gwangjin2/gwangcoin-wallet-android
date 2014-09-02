@@ -68,6 +68,7 @@
   <string name="send_coins_fragment_receiving_address_complex">알 수 없는 형식의 주소</string>
   <string name="send_coins_fragment_pending">(승인을 위해 기다는 중 : %s)</string>
   <string name="send_coins_fragment_amount_label">송금액</string>
+  <string name="send_coins_fragment_amount_empty">송금액을 입력해 주세요.</string>
   <string name="send_coins_fragment_direct_payment_enable">수원시민화폐이 수신인에게 바로 송금됩니다.</string>
   <string name="send_coins_fragment_direct_payment_ack">수신인에게 송금이 완료되었습니다.</string>
   <string name="send_coins_fragment_direct_payment_nack">송금 시도가 직접 연결된 곳으로부터 거부되었습니다.</string>
@@ -95,6 +96,8 @@
   <string name="sweep_wallet_fragment_request_wallet_balance_failed_title">금액 충전 실패</string>
   <string name="sweep_wallet_options_reload">금액 다시 읽어들이기</string>
   <string name="request_coins_activity_title">수원시민화폐 요청</string>
+  <string name="request_coins_fragment_address_label">수원시민화폐 요청주소</string>
+  <string name="request_coins_fragment_include_address_label">주소에 라벨 포함 시키기.</string>
   <string name="request_coins_fragment_amount_label">요구 금액 (선택 사항)</string>
   <string name="request_coins_fragment_accept_bluetooth_payment">결제 과정에서의 신뢰성 강화를 위해 블루투스를 통해 승인합니다.</string>
   <string name="request_coins_fragment_initiate_request_qr">수원시민화폐 송금자에게 이 QR 코드를 읽게 하세요.</string>
