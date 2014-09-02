@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Suwon money</string>
+    <string name="app_name">Suwoncoin</string>
 	<string name="toast_wallet_reset">Wallet was reset,\nwill take some time to recover</string>
 	<string name="wallet_disclaimer_fragment_remind_safety">Use at your own risk. Read the &lt;u>safety notes&lt;/u>.</string>
 	<string name="wallet_disclaimer_fragment_remind_backup">You need to &lt;u>back up your wallet&lt;/u>!</string>
