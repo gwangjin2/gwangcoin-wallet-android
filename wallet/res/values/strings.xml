@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Suwoncoin</string>
+    <string name="app_name">Suwon money</string>
 	<string name="toast_wallet_reset">Wallet was reset,\nwill take some time to recover</string>
 	<string name="wallet_disclaimer_fragment_remind_safety">Use at your own risk. Read the &lt;u>safety notes&lt;/u>.</string>
 	<string name="wallet_disclaimer_fragment_remind_backup">You need to &lt;u>back up your wallet&lt;/u>!</string>
@@ -246,6 +246,11 @@
     <string name="disclaimer">Have you really read the safety notes? Did you already back up your private keys to a safe
         place?
     </string>
+    <string name="Show_disclaimer">Show disclaimer</string>
+    <string name="Bluetooth_Tittle">Bluetooth offline transactions</string>
+    <string name="Bluetooth_explanation">Accept signed transactions via Bluetooth radio.</string>
+    <string name="Warning">Warning</string>
+    <string name="Warning_explanation">This is all unfinished stuff. Use at your own risk!</string>
     <string name="edit_transaction_note_dialog_title_edit">Transaction Note</string>
     <string name="edit_transaction_note_dialog_txid_label">TX</string>
     <string name="edit_transaction_note_dialog_note_label">Note</string>
