@@ -27,10 +27,10 @@
         <item>internal</item>
     </string-array>
     <string-array name="preferences_qr_labels">
-        <item>Barcode Scanner</item>
-        <item>QR Droid</item>
-        <item>Barcode Scanner+</item>
-        <item>Barcode Scanner+ Simple</item>
-        <item>Internal</item>
+        <item>바코드 스캐너 사용</item>
+        <item>QR 애플리케이션 사용</item>
+        <item>바코드 스캐너+ 앱 사용</item>
+        <item>바코드 스캐너+ Simple 앱 사용</item>
+        <item>Internal 사용</item>
     </string-array>
 </resources>
