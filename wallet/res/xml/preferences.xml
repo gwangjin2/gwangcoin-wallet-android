@@ -45,19 +45,40 @@
 	<PreferenceCategory android:title="@string/preferences_category_labs" >
 		<Preference
 			android:icon="@drawable/ic_menu_warning"
-			android:summary="This is all unfinished stuff. Use at your own risk!"
-			android:title="Warning" />
+			android:summary="@string/Warning_explanation"
+			android:title="@string/Warning" />
 
-		<CheckBoxPreference
-			android:defaultValue="true"
-			android:key="disclaimer"
-			android:summary="@string/disclaimer"
-			android:title="Show disclaimer" />
-		<CheckBoxPreference
-			android:defaultValue="false"
-			android:key="labs_bluetooth_offline_transactions"
-			android:summary="Accept signed transactions via Bluetooth radio."
-			android:title="Bluetooth offline transactions" />
+        <!--<Preference
+            android:icon="@drawable/ic_menu_warning"
+            android:summary="This is all unfinished stuff. Use at your own risk!"
+            android:title="Warning" />-->
+
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="disclaimer"
+            android:summary="@string/disclaimer"
+            android:title="@string/Show_disclaimer" />
+
+        <!--<CheckBoxPreference
+        android:defaultValue="true"
+        android:key="disclaimer"
+        android:summary="@string/disclaimer"
+        android:title="Show disclaimer" />-->
+
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="labs_bluetooth_offline_transactions"
+            android:summary="@string/Bluetooth_explanation"
+            android:title="@string/Bluetooth_Tittle" />
+
+        <!--<CheckBoxPreference
+        android:defaultValue="false"
+        android:key="labs_bluetooth_offline_transactions"
+        android:summary="Accept signed transactions via Bluetooth radio."
+        android:title="Bluetooth offline transactions" />-->
+
 
         <ListPreference
                 android:defaultValue="com.google.zxing.client.android"

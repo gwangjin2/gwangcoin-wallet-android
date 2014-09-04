@@ -93,7 +93,7 @@
 			android:id="@+id/send_coins_amount_local"
 			android:layout_width="0px"
 			android:layout_height="wrap_content"
-			android:layout_weight="1" >
+			android:layout_weight="0" >
 
 			<EditText
 				android:id="@+id/send_coins_amount_local_edittext"

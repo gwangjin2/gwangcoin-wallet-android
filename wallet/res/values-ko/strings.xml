@@ -95,7 +95,8 @@
   <string name="sweep_wallet_fragment_request_wallet_balance_progress">금액 충전 중...</string>
   <string name="sweep_wallet_fragment_request_wallet_balance_failed_title">금액 충전 실패</string>
   <string name="sweep_wallet_options_reload">금액 다시 읽어들이기</string>
-  <string name="request_coins_activity_title">수원시민화폐 요청</string>
+  <!--<string name="request_coins_activity_title">수원시민화폐 요청</string>-->
+  <string name="request_coins_activity_title">돈 받기</string>
   <string name="request_coins_fragment_address_label">수원시민화폐 요청주소</string>
   <string name="request_coins_fragment_include_address_label">주소에 라벨 포함 시키기.</string>
   <string name="request_coins_fragment_amount_label">요구 금액 (선택 사항)</string>
@@ -240,14 +241,23 @@
   <string name="button_paste">붙여넣기</string>
   <string name="button_share">공유</string>
   <string name="button_set_as_default">기본값으로 설정</string>
-  <string name="button_request_coins">수원시민화폐 요청 보내기</string>
-  <string name="button_send_coins">송금하기</string>
+  <string name="button_request_coins">돈 받기</string>
+  <string name="button_send_coins">돈 보내기</string>
   <string name="button_scan">QR 읽기</string>
   <string name="button_edit_address">주소 추가/수정</string>
   <string name="button_settings">설정</string>
+  <string name="preferences_qr_title">QR Code Scanner App</string>
+  <string name="preferences_qr_summary">QR code를 인식 하기 위해 어느 앱을 사용하시겠습니까?</string>
   <string name="action_browse">블럭체인 탐색</string>
   <string name="time_today">오늘</string>
   <string name="address_unlabeled">(이름 없음)</string>
+  <string name="disclaimer">안전이슈참조 사항을 읽어보셨나요? 안전한 장소에 private keys를 백업 하셨나요?
+  </string>
+  <string name="Show_disclaimer">권한 보기</string>
+  <string name="Bluetooth_Tittle">블루투스로 거래하기.</string>
+  <string name="Bluetooth_explanation">블루투스를 통한 거래를 허용합니다.</string>
+  <string name="Warning">경고</string>
+  <string name="Warning_explanation">미완성 된 애플리케이션 입니다. 위험을 감수하고 사용하셔야 합니다!</string>
   <!--generic error messages-->
   <string name="error_io">I/O 오류: %s</string>
   <string name="error_parse">파싱 오류: %s</string>
