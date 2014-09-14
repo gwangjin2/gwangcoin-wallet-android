@@ -52,33 +52,33 @@ public class SuwoncoinParams extends NetworkParameters {
         packetMagic = 0xfbc0b6dbL;
         dumpedPrivateKeyHeader = 128 + addressHeader;
 
-        targetTimespan = (int)(3.5 * 24 * 60 * 60);
-        interval = targetTimespan/((int)(2.5 * 60));
+        targetTimespan = (int)(1 * 24 * 60 * 60);
+        interval = targetTimespan/((int)(1 * 60));
 
         genesisBlock.setDifficultyTarget(0x1e0ffff0L);
-        genesisBlock.setTime(1317972665L);
-        genesisBlock.setNonce(2084524493L);
+        genesisBlock.setTime(1410679571L);
+        genesisBlock.setNonce(61134L);
         genesisBlock.removeTransaction(0);
         Transaction t = new Transaction(this);
         try {
             // A script containing the difficulty bits and the following message:
             //
-            //   "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks"
+            //   "2014년9월15일, 살림살이 수원시민화폐가 시작됨"
             byte[] bytes = Hex.decode
-                    ("04ffff001d0104404e592054696d65732030352f4f63742f32303131205374657665204a6f62732c204170706c65e280997320566973696f6e6172792c2044696573206174203536");
+                    ("04ffff001d01043f32303134eb858439ec9b943135ec9dbc2c2020ec82b4eba6bcec82b4ec9db420ec8898ec9b90ec8b9cebafbced9994ed8f90eab08020ec8b9cec9e91eb90a8");
             t.addInput(new TransactionInput(this, t, bytes));
             ByteArrayOutputStream scriptPubKeyBytes = new ByteArrayOutputStream();
             Script.writeBytes(scriptPubKeyBytes, Hex.decode
-                    ("040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9"));
+                    ("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f"));
             scriptPubKeyBytes.write(ScriptOpCodes.OP_CHECKSIG);
-            t.addOutput(new TransactionOutput(this, t, Utils.toNanoCoins(50, 0), scriptPubKeyBytes.toByteArray()));
+            t.addOutput(new TransactionOutput(this, t, Utils.toNanoCoins(1, 0), scriptPubKeyBytes.toByteArray()));
         } catch (Exception e) {
             // Cannot happen.
             throw new RuntimeException(e);
         }
         genesisBlock.addTransaction(t);
         String genesisHash = genesisBlock.getHashAsString();
-        checkState(genesisHash.equals("12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2"),
+        checkState(genesisHash.equals("3a6b3fc6cd51b185fab5e904bd609d9a56da1385657cd174a2201271b461f0cf"),
                 genesisBlock);
         subsidyDecreaseBlockCount = 1000000;
 
@@ -88,7 +88,7 @@ public class SuwoncoinParams extends NetworkParameters {
         };
     }
 
-    private static BigInteger MAX_MONEY = Utils.COIN.multiply(BigInteger.valueOf(1000000000));
+    private static BigInteger MAX_MONEY = Utils.COIN.multiply(BigInteger.valueOf(1000000001));
     @Override
     public BigInteger getMaxMoney() { return MAX_MONEY; }
 
