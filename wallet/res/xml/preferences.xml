@@ -81,7 +81,7 @@
 
 
         <ListPreference
-                android:defaultValue="com.google.zxing.client.android"
+                android:defaultValue="internal"
                 android:entries="@array/preferences_qr_labels"
                 android:entryValues="@array/preferences_qr_values"
                 android:key="qr_scanner"
