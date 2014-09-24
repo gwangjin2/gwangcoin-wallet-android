@@ -183,13 +183,17 @@ public final class WalletActivity extends AbstractOnDemandServiceActivity
 	@Override
 	public void onActivityResult(final int requestCode, final int resultCode, final Intent intent)
 	{
-        final String input;
+        String input= null;
         final SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
         /* Check if user wants to use internal scanner */
         if(prefs.getString(Constants.PREFS_KEY_QR_SCANNER, "").equals("internal"))
         {
-            input = intent.getStringExtra(ScanActivity.INTENT_EXTRA_RESULT);
-        }
+           try {
+               input = intent.getStringExtra(ScanActivity.INTENT_EXTRA_RESULT);
+           }catch (NullPointerException e){
+               input = null;
+           }
+         }
         else
         {
             IntentResult scanResult = IntentIntegrator.parseActivityResult(requestCode, resultCode, intent);
