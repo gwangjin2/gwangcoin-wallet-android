@@ -1,1 +1,1 @@
-GIt과 Trello 연동 확인용
+GIt과 Trello 연동 확인하는 문서입니다.
