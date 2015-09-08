@@ -23,7 +23,7 @@ import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.FragmentManager;
 import android.text.Html;
-import de.schildbach.wallet_swc.R;
+import de.schildbach.wallet_gwc.R;
 
 /**
  * @author Andreas Schildbach, Suwoncoin Dev Team

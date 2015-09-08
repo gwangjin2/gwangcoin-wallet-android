@@ -51,7 +51,7 @@ import com.google.bitcoin.core.VersionMessage;
 
 import de.schildbach.wallet.service.BlockchainService;
 import de.schildbach.wallet.service.BlockchainServiceImpl;
-import de.schildbach.wallet_swc.R;
+import de.schildbach.wallet_gwc.R;
 
 /**
  * @author Andreas Schildbach, Suwoncoin Dev Team

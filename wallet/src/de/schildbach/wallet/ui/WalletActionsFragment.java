@@ -26,7 +26,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.ViewParent;
 import android.widget.FrameLayout;
-import de.schildbach.wallet_swc.R;
+import de.schildbach.wallet_gwc.R;
 
 /**
  * @author Andreas Schildbach, Suwoncoin Dev Team

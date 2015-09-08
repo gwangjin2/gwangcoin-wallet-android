@@ -26,7 +26,7 @@ import android.text.format.DateUtils;
 
 import com.google.bitcoin.core.NetworkParameters;
 import org.suwoncoin.SuwoncoinParams;
-import de.schildbach.wallet_swc.R;
+import de.schildbach.wallet_gwc.R;
 
 /**
  * @author Andreas Schildbach, Suwoncoin Dev Team, Suwoncoin Dev Team
@@ -51,15 +51,15 @@ public class Constants
 
 	public static final String CHECKPOINTS_FILENAME = "checkpoints" + FILENAME_NETWORK_SUFFIX;
 
-    private static final String EXPLORE_BASE_URL_PROD = "http://swc.suwoncoin.org/";
-    private static final String EXPLORE2_BASE_URL_PROD = "http://explorer.suwoncoin.org/";
+    private static final String EXPLORE_BASE_URL_PROD = "http://www.gwangmoney.com/";
+    private static final String EXPLORE2_BASE_URL_PROD = "http://explorer.gwangmoney.com/";
     public static final String EXPLORE_BASE_URL = EXPLORE_BASE_URL_PROD;
     public static final String EXPLORE2_BASE_URL = EXPLORE2_BASE_URL_PROD;
 
 	public static final String MIMETYPE_TRANSACTION = "application/x-swctx";
 
 	public static final int MAX_NUM_CONFIRMATIONS = 7;
-	public static final String USER_AGENT = "Suwoncoin Wallet";
+	public static final String USER_AGENT = "GW Wallet";
 	public static final String DEFAULT_EXCHANGE_CURRENCY = "KRW"; // USD -> KRW
 	public static final int WALLET_OPERATION_STACK_SIZE = 256 * 1024;
 	public static final long BLOCKCHAIN_STATE_BROADCAST_THROTTLE_MS = DateUtils.SECOND_IN_MILLIS;
@@ -104,7 +104,7 @@ public class Constants
     public static final String BB_WEBMARKET_APP_URL = "http://appworld.blackberry.com/webstore/content/46329888";
 
     //public static final String VERSION_URL = "http://wallet.schildbach.de/version";
-    public static final String VERSION_URL = "http://www.suwoncoin.org/version";
+    public static final String VERSION_URL = "http://www.gwangmoney.com/version";
     public static final int HTTP_TIMEOUT_MS = 15 * (int) DateUtils.SECOND_IN_MILLIS;
 
 	public static final String PREFS_KEY_LAST_VERSION = "last_version";

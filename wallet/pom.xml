@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>wallet</artifactId>
+	<artifactId>gwwallet</artifactId>
 	<packaging>apk</packaging>
 	<version>0.1.5</version>
-	<name>Suwoncoin Wallet</name>
+	<name>GW Wallet</name>
 
 	<parent>
 		<groupId>de.schildbach.wallet</groupId>

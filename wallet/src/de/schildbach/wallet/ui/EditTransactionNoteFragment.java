@@ -30,7 +30,7 @@ import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
-import de.schildbach.wallet_swc.R;
+import de.schildbach.wallet_gwc.R;
 
 import javax.annotation.Nonnull;
 

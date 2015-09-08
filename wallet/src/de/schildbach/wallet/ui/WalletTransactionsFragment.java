@@ -27,7 +27,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import de.schildbach.wallet.ui.TransactionsListFragment.Direction;
 import de.schildbach.wallet.util.ViewPagerTabs;
-import de.schildbach.wallet_swc.R;
+import de.schildbach.wallet_gwc.R;
 
 /**
  * @author Andreas Schildbach, Suwoncoin Dev Team

@@ -38,7 +38,7 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.service.BlockchainService;
-import de.schildbach.wallet_swc.R;
+import de.schildbach.wallet_gwc.R;
 
 /**
  * @author Andreas Schildbach, Suwoncoin Dev Team

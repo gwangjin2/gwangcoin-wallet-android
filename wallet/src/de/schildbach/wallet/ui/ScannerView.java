@@ -35,7 +35,7 @@ import android.view.View;
 
 import com.google.zxing.ResultPoint;
 
-import de.schildbach.wallet_swc.R;
+import de.schildbach.wallet_gwc.R;
 
 /**
  * @author Andreas Schildbach, Suwoncoin Dev Team

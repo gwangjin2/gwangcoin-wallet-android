@@ -28,7 +28,7 @@ import android.support.v4.app.FragmentManager;
 import android.view.View;
 import android.view.Window;
 import android.widget.ImageView;
-import de.schildbach.wallet_swc.R;
+import de.schildbach.wallet_gwc.R;
 
 /**
  * @author Andreas Schildbach, Suwoncoin Dev Team
