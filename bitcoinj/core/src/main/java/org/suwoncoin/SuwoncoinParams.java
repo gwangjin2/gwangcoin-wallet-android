@@ -52,7 +52,8 @@ public class SuwoncoinParams extends NetworkParameters {
         packetMagic = 0xfbc0b6dbL;
         dumpedPrivateKeyHeader = 128 + addressHeader;
 
-        targetTimespan = (int)(1 * 24 * 60 * 60);
+        targetTimespan = (int)(12 * 60 * 60);
+        targetTimespan = (int)(12 * 60 * 60);
         interval = targetTimespan/((int)(1 * 60));
 
         genesisBlock.setDifficultyTarget(0x1e0ffff0L);
@@ -83,12 +84,11 @@ public class SuwoncoinParams extends NetworkParameters {
         subsidyDecreaseBlockCount = 1000000;
 
         dnsSeeds = new String[] {
-                "dnsseed1.suwoncoin.org",
-                "dnsseed2.suwoncoin.org",
+                "dnsseed-gwcoin.actus.kr",
         };
     }
 
-    private static BigInteger MAX_MONEY = Utils.COIN.multiply(BigInteger.valueOf(1000000001));
+    private static BigInteger MAX_MONEY = Utils.COIN.multiply(BigInteger.valueOf(10000000000));
     @Override
     public BigInteger getMaxMoney() { return MAX_MONEY; }
 
