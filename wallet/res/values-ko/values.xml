@@ -12,10 +12,10 @@
 		<item>2/3</item>
 	</string-array>
 	<string-array name="preferences_precision_labels">
-		<item>SWC, 8 숫자</item>
-		<item>SWC, 6 숫자</item>
-		<item>SWC, 4 숫자</item>
-		<item>mSWC, 2 숫자</item>
+		<item>GW, 8 숫자</item>
+		<item>GW, 6 숫자</item>
+		<item>GW, 4 숫자</item>
+		<item>mGW, 2 숫자</item>
 	</string-array>
 
 

@@ -62,7 +62,7 @@ public abstract class InputParser
 		public void parse()
 		{
             if(input == null) return;
-			if (input.startsWith("suwoncoin:"))
+			if (input.startsWith("gwangcoin:"))
 			{
 				try
 				{
@@ -76,7 +76,7 @@ public abstract class InputParser
 				}
 				catch (final BitcoinURIParseException x)
 				{
-					error(R.string.input_parser_invalid_suwoncoin_uri, input);
+					error(R.string.input_parser_invalid_gwangcoin_uri, input);
 				}
 			}
 			else if (PATTERN_BITCOIN_ADDRESS.matcher(input).matches())

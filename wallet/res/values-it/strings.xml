@@ -143,7 +143,7 @@
 	<string name="scan_camera_problem_dialog_title">Scusa</string>
 	<string name="scan_camera_problem_dialog_message">La videocamera ha un problema. Probabilmente è necessario riavviare il dispositivo.</string>
 	<string name="input_parser_cannot_classify">Impossibile classificare ingresso:\n%s</string>
-	<string name="input_parser_invalid_suwoncoin_uri">URI Suwoncoin non valido:\n%s</string>
+	<string name="input_parser_invalid_gwangcoin_uri">URI Suwoncoin non valido:\n%s</string>
 	<string name="input_parser_invalid_address">Ricevuto indirizzo Suwoncoin non valido!\n(Hai mescolato Mainnet/Testnet?)</string>
 	<string name="input_parser_invalid_transaction">Transazione non valida:\n%s</string>
 	<string name="preferences_activity_title">Impostazioni</string>

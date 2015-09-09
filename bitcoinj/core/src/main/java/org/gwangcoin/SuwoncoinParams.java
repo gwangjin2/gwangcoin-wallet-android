@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.suwoncoin;
+package org.gwangcoin;
 
 import com.google.bitcoin.core.Block;
 import com.google.bitcoin.core.NetworkParameters;
@@ -43,7 +43,7 @@ import static com.google.common.base.Preconditions.checkState;
 public class SuwoncoinParams extends NetworkParameters {
     public SuwoncoinParams() {
         super();
-        id = "org.suwoncoin.production";
+        id = "org.gwangcoin.production";
         proofOfWorkLimit = Utils.decodeCompactBits(0x1e0fffffL);
         addressHeader = 125;    // 48(L) -> 125(s)
         acceptableAddressCodes = new int[] { 125 };
@@ -103,15 +103,15 @@ public class SuwoncoinParams extends NetworkParameters {
     @Override
     public int getRetargetBlockCount(StoredBlock cursor) {
         if (cursor.getHeight() + 1 != getInterval()) {
-            //Logger.getLogger("wallet_swc").info("Normal SWC retarget");
+            //Logger.getLogger("wallet_swc").info("Normal GW retarget");
             return getInterval();
         } else {
-            //Logger.getLogger("wallet_swc").info("Genesis SWC retarget");
+            //Logger.getLogger("wallet_swc").info("Genesis GW retarget");
             return getInterval() - 1;
         }
     }
 
-    @Override public String getURIScheme() { return "suwoncoin:"; }
+    @Override public String getURIScheme() { return "gwangcoin:"; }
 
     /** Gets the hash of the given block for the purpose of checking its PoW */
     public Sha256Hash calculateBlockPoWHash(Block b) {

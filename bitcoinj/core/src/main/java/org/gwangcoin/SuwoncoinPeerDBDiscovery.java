@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.suwoncoin;
+package org.gwangcoin;
 
 import com.google.bitcoin.core.AbstractPeerEventListener;
 import com.google.bitcoin.core.AddressMessage;

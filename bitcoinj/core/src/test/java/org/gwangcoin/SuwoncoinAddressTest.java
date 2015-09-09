@@ -14,17 +14,7 @@
  * limitations under the License.
  */
 
-package org.suwoncoin;
-
-import com.google.bitcoin.core.*;
-import com.google.bitcoin.params.TestNet3Params;
-import org.junit.Test;
-import org.spongycastle.util.encoders.Hex;
-import org.suwoncoin.SuwoncoinParams;
-
-import java.util.Arrays;
-
-import static org.junit.Assert.*;
+package org.gwangcoin;
 
 public class SuwoncoinAddressTest {
 //    static final NetworkParameters mainParams = SuwoncoinParams.get();

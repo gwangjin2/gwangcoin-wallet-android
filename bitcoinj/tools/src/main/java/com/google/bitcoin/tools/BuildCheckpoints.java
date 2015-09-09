@@ -1,7 +1,7 @@
 package com.google.bitcoin.tools;
 
 import com.google.bitcoin.core.*;
-import org.suwoncoin.SuwoncoinParams;
+import org.gwangcoin.SuwoncoinParams;
 import com.google.bitcoin.store.BlockStore;
 import com.google.bitcoin.store.MemoryBlockStore;
 import com.google.bitcoin.utils.BriefLogFormatter;
@@ -60,7 +60,7 @@ public class BuildCheckpoints {
         checkState(checkpoints.size() > 0);
 
         // Write checkpoint data out.
-        final FileOutputStream fileOutputStream = new FileOutputStream("checkpointssuwoncoin", false);
+        final FileOutputStream fileOutputStream = new FileOutputStream("checkpointsgwangcoin", false);
         MessageDigest digest = MessageDigest.getInstance("SHA-256");
         final DigestOutputStream digestOutputStream = new DigestOutputStream(fileOutputStream, digest);
         digestOutputStream.on(false);
@@ -85,7 +85,7 @@ public class BuildCheckpoints {
         store.close();
 
         // Sanity check the created file.
-        CheckpointManager manager = new CheckpointManager(params, new FileInputStream("checkpointssuwoncoin"));
+        CheckpointManager manager = new CheckpointManager(params, new FileInputStream("checkpointsgwangcoin"));
         checkState(manager.numCheckpoints() == checkpoints.size());
         StoredBlock test = manager.getCheckpointBefore(1346335719);  // Just after block 200,000
         checkState(test.getHeight() == 199584);

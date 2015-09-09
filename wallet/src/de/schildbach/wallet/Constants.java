@@ -25,7 +25,7 @@ import android.os.Environment;
 import android.text.format.DateUtils;
 
 import com.google.bitcoin.core.NetworkParameters;
-import org.suwoncoin.SuwoncoinParams;
+import org.gwangcoin.SuwoncoinParams;
 import de.schildbach.wallet_gwc.R;
 
 /**
@@ -36,7 +36,7 @@ public class Constants
 	public static final boolean TEST = R.class.getPackage().getName().contains("_test");
 
 	public static final NetworkParameters NETWORK_PARAMETERS = SuwoncoinParams.get();
-	private static final String FILENAME_NETWORK_SUFFIX = ".suwoncoin";
+	private static final String FILENAME_NETWORK_SUFFIX = ".gwangcoin";
 
 	public static final String WALLET_FILENAME = "wallet" + FILENAME_NETWORK_SUFFIX;
 
@@ -45,7 +45,7 @@ public class Constants
 	public static final String WALLET_KEY_BACKUP_BASE58 = "key-backup-base58" + FILENAME_NETWORK_SUFFIX;
 
 	public static final File EXTERNAL_WALLET_BACKUP_DIR = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
-	public static final String EXTERNAL_WALLET_KEY_BACKUP = "suwoncoin-wallet-keys";
+	public static final String EXTERNAL_WALLET_KEY_BACKUP = "gwangcoin-wallet-keys";
 
 	public static final String BLOCKCHAIN_FILENAME = "blockchain" + FILENAME_NETWORK_SUFFIX;
 
@@ -65,8 +65,8 @@ public class Constants
 	public static final long BLOCKCHAIN_STATE_BROADCAST_THROTTLE_MS = DateUtils.SECOND_IN_MILLIS;
 	public static final long BLOCKCHAIN_UPTODATE_THRESHOLD_MS = DateUtils.HOUR_IN_MILLIS;
 
-	public static final String CURRENCY_CODE_BTC = "SWC";
-	public static final String CURRENCY_CODE_MBTC = "mSWC";
+	public static final String CURRENCY_CODE_BTC = "GW";
+	public static final String CURRENCY_CODE_MBTC = "mGW";
 	public static final char CHAR_HAIR_SPACE = '\u200a';
 	public static final char CHAR_THIN_SPACE = '\u2009';
 	public static final char CHAR_ALMOST_EQUAL_TO = '\u2248';
@@ -91,9 +91,9 @@ public class Constants
 
     //TODO: Lots of these
 	public static final String LICENSE_URL = "http://www.gnu.org/licenses/gpl-3.0.txt";
-	public static final String SOURCE_URL = "https://github.com/yezune/suwoncoin-wallet";
-	public static final String BINARY_URL = "https://github.com/yezune/suwoncoin-wallet/releases";
-	public static final String CREDITS_BITCOINJ_URL = "https://github.com/yezune/suwoncoin-wallet/bitcoinj";
+	public static final String SOURCE_URL = "https://github.com/yezune/gwangcoin-wallet";
+	public static final String BINARY_URL = "https://github.com/yezune/gwangcoin-wallet/releases";
+	public static final String CREDITS_BITCOINJ_URL = "https://github.com/yezune/gwangcoin-wallet/bitcoinj";
 	public static final String CREDITS_ZXING_URL = "http://code.google.com/p/zxing/";
 	public static final String AUTHOR_TWITTER_URL = "https://twitter.com/SuwoncoinProject";
 	public static final String AUTHOR_GOOGLEPLUS_URL = "https://plus.google.com/+SuwoncoinOrg";

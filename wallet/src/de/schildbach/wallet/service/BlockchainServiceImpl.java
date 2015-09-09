@@ -39,7 +39,7 @@ import android.util.Log;
 import com.google.bitcoin.script.Script;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.suwoncoin.SuwoncoinPeerDBDiscovery;
+import org.gwangcoin.SuwoncoinPeerDBDiscovery;
 
 import android.annotation.SuppressLint;
 import android.app.NotificationManager;
@@ -423,11 +423,12 @@ public class BlockchainServiceImpl extends android.app.Service implements Blockc
 					{
                         try {
                             dbPeerDiscovery = new SuwoncoinPeerDBDiscovery(Constants.NETWORK_PARAMETERS,
-                                    getFileStreamPath("suwoncoin.peerdb"), peerGroup);
+                                    getFileStreamPath("gwangcoin.peerdb"), peerGroup);
                         } catch(IllegalStateException e) {
                             // This can happen in the guts of bitcoinj
                             Log.i(TAG, "IllegalStateException in bitcoinj: " + e.getMessage());
                         }
+
 						final List<InetSocketAddress> peers = new LinkedList<InetSocketAddress>();
 
 						boolean needsTrimPeersWorkaround = false;

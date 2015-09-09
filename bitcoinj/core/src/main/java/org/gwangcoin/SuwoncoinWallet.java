@@ -1,4 +1,4 @@
-package org.suwoncoin;
+package org.gwangcoin;
 
 import com.google.bitcoin.core.Address;
 import com.google.bitcoin.core.InsufficientMoneyException;

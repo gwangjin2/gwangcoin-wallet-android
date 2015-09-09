@@ -37,7 +37,7 @@ import javax.annotation.Nonnull;
 import org.bitcoinj.wallet.Protos;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.suwoncoin.SuwoncoinWallet;
+import org.gwangcoin.SuwoncoinWallet;
 
 import android.app.ActivityManager;
 import android.app.ActivityManager.RunningServiceInfo;

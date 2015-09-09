@@ -61,7 +61,7 @@ public final class AboutActivity extends SherlockPreferenceActivity
 		findPreference(KEY_ABOUT_VERSION).setSummary(((WalletApplication) getApplication()).packageInfo().versionName);
 		findPreference(KEY_ABOUT_LICENSE).setSummary(Constants.LICENSE_URL);
 		findPreference(KEY_ABOUT_SOURCE).setSummary(Constants.SOURCE_URL);
-		findPreference(KEY_ABOUT_CREDITS_BITCOINJ).setTitle(getString(R.string.about_credits_suwoncoinj_title, VersionMessage.BITCOINJ_VERSION));
+		findPreference(KEY_ABOUT_CREDITS_BITCOINJ).setTitle(getString(R.string.about_credits_gwangcoinj_title, VersionMessage.BITCOINJ_VERSION));
 		findPreference(KEY_ABOUT_CREDITS_BITCOINJ).setSummary(Constants.CREDITS_BITCOINJ_URL);
 		findPreference(KEY_ABOUT_CREDITS_ZXING).setSummary(Constants.CREDITS_ZXING_URL);
 
