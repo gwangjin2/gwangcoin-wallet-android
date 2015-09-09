@@ -176,7 +176,7 @@
 						<excludeJarResource>.*\.jar$</excludeJarResource>
 					</excludeJarResources>
 					<sdk>
-						<platform>14</platform>
+						<platform>23</platform>
 					</sdk>
 					<sign>
 						<debug>both</debug>

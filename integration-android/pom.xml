@@ -11,7 +11,7 @@
 
 	<parent>
 		<groupId>de.schildbach.wallet</groupId>
-		<artifactId>base</artifactId>
+		<artifactId>gwangcoin</artifactId>
 		<version>1</version>
 	</parent>
 

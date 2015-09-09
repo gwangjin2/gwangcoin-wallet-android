@@ -5,18 +5,16 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>de.schildbach.wallet</groupId>
-	<artifactId>base</artifactId>
-	<name>base</name>
+	<artifactId>gwangcoin</artifactId>
+	<name>gwangcoin</name>
 	<version>1</version>
 	<packaging>pom</packaging>
 
 	<modules>
 		<module>wallet</module>
-		<!--
 		<module>bitcoinj</module>
 		<module>integration-android</module>
         <module>sample-integration-android</module>
-        -->
 	</modules>
 
 	<build>
