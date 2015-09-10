@@ -19,6 +19,7 @@ package de.schildbach.wallet.util;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
+import java.text.NumberFormat;
 import java.util.Locale;
 
 import javax.annotation.Nonnull;
@@ -70,14 +71,16 @@ public class GenericUtils
 			final long coins = absValue / ONE_BTC_INT;
 			final int satoshis = (int) (absValue % ONE_BTC_INT);
 
+			final String coinString = NumberFormat.getNumberInstance(Locale.US).format(coins);
+
 			if (satoshis % 1000000 == 0)
-				return String.format(Locale.US, "%s%d.%02d", sign, coins, satoshis / 1000000);
+				return String.format(Locale.US, "%s%s.%02d", sign, coinString, satoshis / 1000000);
 			else if (satoshis % 10000 == 0)
-				return String.format(Locale.US, "%s%d.%04d", sign, coins, satoshis / 10000);
+				return String.format(Locale.US, "%s%s.%04d", sign, coinString, satoshis / 10000);
 			else if (satoshis % 100 == 0)
-				return String.format(Locale.US, "%s%d.%06d", sign, coins, satoshis / 100);
+				return String.format(Locale.US, "%s%s.%06d", sign, coinString, satoshis / 100);
 			else
-				return String.format(Locale.US, "%s%d.%08d", sign, coins, satoshis);
+				return String.format(Locale.US, "%s%s.%08d", sign, coinString, satoshis);
 		}
 		else if (shift == 3)
 		{
@@ -94,12 +97,14 @@ public class GenericUtils
 			final long coins = absValue / ONE_MBTC_INT;
 			final int satoshis = (int) (absValue % ONE_MBTC_INT);
 
+			final String coinString = NumberFormat.getNumberInstance(Locale.US).format(coins);
+
 			if (satoshis % 1000 == 0)
-				return String.format(Locale.US, "%s%d.%02d", sign, coins, satoshis / 1000);
+				return String.format(Locale.US, "%s%s.%02d", sign, coinString, satoshis / 1000);
 			else if (satoshis % 10 == 0)
-				return String.format(Locale.US, "%s%d.%04d", sign, coins, satoshis / 10);
+				return String.format(Locale.US, "%s%s.%04d", sign, coinString, satoshis / 10);
 			else
-				return String.format(Locale.US, "%s%d.%05d", sign, coins, satoshis);
+				return String.format(Locale.US, "%s%s.%05d", sign, coinString, satoshis);
 		}
 		else
 		{

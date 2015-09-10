@@ -66,7 +66,7 @@ import static com.google.common.base.Preconditions.checkState;
  * network IO, but starting and stopping the service should be fine.</p>
  */
 public class PeerGroup extends AbstractExecutionThreadService implements TransactionBroadcaster {
-    private static final int DEFAULT_CONNECTIONS = 3;
+    private static final int DEFAULT_CONNECTIONS = 4;
 
     private static final Logger log = LoggerFactory.getLogger(PeerGroup.class);
     protected final ReentrantLock lock = Threading.lock("peergroup");
@@ -552,8 +552,8 @@ public class PeerGroup extends AbstractExecutionThreadService implements Transac
         lock.lock();
         try {
             if (!haveReadyInactivePeer(nowMillis)) {
-                log.debug("Peer discovery wait 1.second...");
-                Utils.sleep(1000);
+                log.debug("Peer discovery wait 0.5 second...");
+                Utils.sleep(500);
                 discoverPeers();
                 groupBackoff.trackSuccess();
                 nowMillis = Utils.currentTimeMillis();
