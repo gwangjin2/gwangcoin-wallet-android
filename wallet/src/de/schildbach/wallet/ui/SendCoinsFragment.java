@@ -661,7 +661,10 @@ public final class SendCoinsFragment extends SherlockFragment
             /* Check if user wants to use internal scanner */
             if(prefs.getString(Constants.PREFS_KEY_QR_SCANNER, "").equals("internal"))
             {
-                input = intent.getStringExtra(ScanActivity.INTENT_EXTRA_RESULT);
+                if(intent != null)
+					input = intent.getStringExtra(ScanActivity.INTENT_EXTRA_RESULT);
+				else
+					input = null;
             }
             else
             {
@@ -820,12 +823,12 @@ public final class SendCoinsFragment extends SherlockFragment
 
 	private void popupMessage(@Nonnull final View anchor, @Nonnull final String message)
 	{
-		dismissPopup();
-
-		popupMessageView.setText(message);
-		popupMessageView.setMaxWidth(getView().getWidth());
-
-		popup(anchor, popupMessageView);
+//		dismissPopup();
+//
+//		popupMessageView.setText(message);
+//		popupMessageView.setMaxWidth(getView().getWidth());
+//
+//		popup(anchor, popupMessageView);
 	}
 
 	private void popupAvailable(@Nonnull final View anchor, @Nonnull final BigInteger available, @Nonnull final BigInteger pending)
